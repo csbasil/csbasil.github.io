@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-glass static-top justify-content-center">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-glass fixed-bottom justify-content-center">
       <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home</a>
@@ -20,21 +20,27 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
-    </nav>
-    <div class="container">
+    </nav><br><br>
+    <div class="container-fluid bg-warning">
+      <br>
       <div class="row">
         <div class="col-sm-5 text-right">
           <img src="images/basil.jpg" width="300" class="img-thumbnail" alt="Cinque Terre">
         </div>
         <div class="col-sm-7">
           <div class="name-head line-left">
-            <h1>Basil C. Sunny <img src="images/india.png" width=100 ></h1>
-            <h2>Django Developer, Laravel Developer, Atmega32 Programmer</h2>
-            <strong>Current Position: <b>PhD Research Scholar@IIIT Kottayam</b></strong><br>
-            <button type="button" class="btn btn-warning">Projects <span class="badge badge-light">50+</span></button>
-            <button type="button" class="btn btn-info">Certifications <span class="badge badge-light">5+</span></button>
-            <button type="button" class="btn btn-danger">Publications <span class="badge badge-light">3+</span></button>
-            <button type="button" class="btn btn-success">IoT Products <span class="badge badge-light">5+</span></button>
+            <h1>Basil C. Sunny</h1>
+            <h2><strong> Lives in <b style="font-size:25px;">Kothamangalam</b></strong>, <sup><img src="images/kerala.png" width="90" ></sup>, <sup><img src="images/india.png" width="70" ></sup></h2>
+            <h2>
+              <span class="badge badge-info">Django Developer</span>
+              <span class="badge badge-info"> Laravel Developer</span>
+              <span class="badge badge-info"> Atmega32 Programmer </span>
+            </h2>
+            <strong>Current Position: <b>PhD Research Scholar@IIIT Kottayam</b></strong><br><br>
+            <button type="button" class="btn btn-dark">Projects <span class="badge badge-light">50+</span></button>
+            <button type="button" class="btn btn-dark">Certifications <span class="badge badge-light">5+</span></button>
+            <button type="button" class="btn btn-dark">Publications <span class="badge badge-light">3+</span></button>
+            <button type="button" class="btn btn-dark">IoT Products <span class="badge badge-light">5+</span></button>
           </div>
         </div>
       </div>
@@ -43,7 +49,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <div class="card bg-darkblue">
+            <div class="card text-dark">
               <div class="card-header"><b>Programing Skills</b></div>
               <div class="card-body">
                 Python:
@@ -52,38 +58,43 @@
                 </div>
                 PHP:
                 <div class="progress" style="height:25px;">
-                   <div class="progress-bar bg-info text-dark" style="width:93%">93%</div>
+                   <div class="progress-bar bg-info" style="width:93%">93%</div>
                 </div>
                 HTML &amp; CSS:
                 <div class="progress" style="height:25px;">
-                   <div class="progress-bar bg-danger text-dark" style="width:90%">90%</div>
+                   <div class="progress-bar bg-danger" style="width:90%">90%</div>
                 </div>
-                C:
+                C &amp; C++:
                 <div class="progress" style="height:25px;">
-                   <div class="progress-bar bg-success text-dark" style="width:90%">90%</div>
+                   <div class="progress-bar bg-success" style="width:80%">80%</div>
+                </div>
+                JavaScript:
+                <div class="progress" style="height:25px;">
+                   <div class="progress-bar bg-olive" style="width:70%">70%</div>
                 </div>
                 Java:
                 <div class="progress" style="height:25px;">
-                   <div class="progress-bar bg-pink text-dark" style="width:70%">70%</div>
+                   <div class="progress-bar bg-pale" style="width:60%">60%</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card bg-yellowsh">
-              <div class="card-header text-dark"><b>Technical Expertness</b></div>
+            <div class="card txt-black">
+              <div class="card-header"><b>Technical Expertness</b></div>
               <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-3"><img src="images/linux.png" height="100" class="rounded" alt="Cinque Terre"></div>
-                    <div class="col-sm-3"><img src="images/django.png" height="100" class="rounded" alt="Cinque Terre"></div>
-                    <div class="col-sm-3"><img src="images/laravel.png" height="100" class="rounded" alt="Cinque Terre"></div>
-                    <div class="col-sm-3"><img src="images/mysql.png" height="100" class="rounded" alt="Cinque Terre"></div>
+                <div class="row text-center">
+                    <div class="col-sm-3"><img src="images/linux.png" height="85" class="rounded" alt="Cinque Terre"><br>Linux</div>
+                    <div class="col-sm-3"><img src="images/django.png" height="85" class="rounded" alt="Cinque Terre"><br>Django</div>
+                    <div class="col-sm-3"><img src="images/laravel.png" height="80" class="rounded" alt="Cinque Terre"><br>Laravel</div>
+                    <div class="col-sm-3"><img src="images/mysql.png" height="70" class="rounded" alt="Cinque Terre"><br>MySql</div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-3"><img src="images/aws.png" height="80" class="rounded" alt="Cinque Terre"></div>
-                    <div class="col-sm-3"><img src="images/sqlite.png" height="100" class="rounded" alt="Cinque Terre"></div>
-                    <div class="col-sm-3"><img src="images/arduino.png" height="100" class="rounded" alt="Cinque Terre"></div>
-                    <div class="col-sm-3"><img src="images/hadoop.png" height="100" class="rounded" alt="Cinque Terre"></div>
+                <hr>
+                <div class="row text-center">
+                    <div class="col-sm-3"><img src="images/bootstrap.png" height="85" class="rounded" alt="Cinque Terre"><br>Bootstrap</div>
+                    <div class="col-sm-3"><img src="images/nodejs.png" height="85" class="rounded" alt="Cinque Terre"><br>NodeJS</div>
+                    <div class="col-sm-3"><img src="images/arduino.png" height="85" class="rounded" alt="Cinque Terre"><br>Arduino</div>
+                    <div class="col-sm-3"><img src="images/hadoop.png" height="85" class="rounded" alt="Cinque Terre"><br>Hadoop</div>
                 </div>
               </div>
             </div>

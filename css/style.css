@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
-body{ font-family: 'Source Sans Pro', sans-serif; color: #fff; background-image: url('../images/bg.png');}
+body{ font-family: 'Source Sans Pro', sans-serif; color: #fff;}
 img{margin:0 auto; margin: 10px;}
 a{color: #fff; font-family: 'Fjalla One', sans-serif;}
 a:hover{color: #000;}
@@ -17,8 +17,8 @@ a:hover{color: #000;}
 .ml-auto .dropdown-menu { left: auto !important; right: 0px;}
 .line-left {border-left: 2px solid #f0f0f0;}
 .line-divs {height: 5px; width:100%; }
-.name-head {margin-top:10px;padding: 10px;  padding-left: 40px;  font-weight: 500;  font-size: 20px; color: #2e2e1f;}
-.name-head h1{font-size: 50px; color: #004466; font-family: 'Fjalla One', sans-serif;}
-.name-head h2{font-size: 35px; }
-.name-head strong{font-weight: 300; font-style: italic; color: #004466;}
-.txt-white {color: #fff;}
+.name-head {margin-top:10px;padding: 10px;  padding-left: 40px;  font-weight: 500;  font-size: 16px; color: #000;}
+.name-head h1{font-size: 30px; color: #000; font-family: 'Fjalla One', sans-serif;}
+.name-head h2{font-size: 20px; }
+.name-head strong{font-weight: 300; font-style: italic; }
+.txt-black {color: #0b0b0b;}
