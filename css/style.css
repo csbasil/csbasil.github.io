@@ -1,0 +1,6 @@
+body{ background-color: rgba(255,204,0,0.9); }
+img{margin:0 auto; margin: 10px;}
+.bg-glass{ background-color: rgba(0,0,0,0.9);}
+.ml-auto .dropdown-menu { left: auto !important; right: 0px;}
+.line-left {border-left: 3px solid #000d1a;}
+.line-divs {height: 5px; width:100%; }
