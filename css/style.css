@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
-body{ font-family: 'Source Sans Pro', sans-serif; color: #fff;}
+body{ font-family: 'Source Sans Pro', sans-serif; color: #fff; background-image: url('../images/bg.png');}
 img{margin:0 auto; margin: 10px;}
 a{color: #fff; font-family: 'Fjalla One', sans-serif;}
 a:hover{color: #000;}
 /* colors */
-.bg-darkblue{background-color: rgba(0, 46, 77,0.9)}
+.bg-darkblue{background-color: rgba(0, 46, 77)}
 .bg-glass{ background-color: rgba(0,0,0,0.9);}
-.bg-yellowsh{ background-color: rgba(255,204,0,0.9); }
+.bg-yellowsh{ background-color: rgba(255,204,0); }
 .bg-pink{background-color: rgb(255, 102, 153);}
 .bg-lgreen{background-color: rgb(153, 204, 0);}
 .bg-pale{background-color: rgb(102, 153, 153);}
 .bg-violet{background-color: rgb(191, 128, 255);}
 .bg-olive{background-color: rgb(153, 153, 102);}
+.bg-orange{background-color: #ff9933;}
 .ml-auto .dropdown-menu { left: auto !important; right: 0px;}
 .line-left {border-left: 2px solid #f0f0f0;}
 .line-divs {height: 5px; width:100%; }
-.name-head {margin-top:10px; padding: 10px; font-weight: 500;  font-size: 20px; color: #2e2e1f;}
+.name-head {margin-top:10px;padding: 10px;  padding-left: 40px;  font-weight: 500;  font-size: 20px; color: #2e2e1f;}
 .name-head h1{font-size: 50px; color: #004466; font-family: 'Fjalla One', sans-serif;}
 .name-head h2{font-size: 35px; }
 .name-head strong{font-weight: 300; font-style: italic; color: #004466;}
