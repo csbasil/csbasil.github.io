@@ -17,13 +17,17 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <a type="button" target="_blank" href="https://www.linkedin.com/in/basil-sunny-66818858/" class="btn btn-info" title="Linkedin Profile">
             <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
+        </a>&nbsp;
         <a type="button" target="_blank" class="btn btn-danger" href="https://scholar.google.co.in/citations?user=cSQQ-38AAAAJ&hl=en" title="Google Scholar">
             <i class="fa fa-google" aria-hidden="true"></i>
-        </a>
+        </a>&nbsp;
         <a type="button" target="_blank" class="btn btn-warning" href="https://github.com/csbasil" title="Google Scholar">
             <i class="fa fa-github" aria-hidden="true"></i>
-        </a>
+        </a>&nbsp;
+        <div class="text-white">&nbsp;
+          Email(office) - <strong class="text-warning">csbasil[at]iiitkottayam[dot]ac[dot]in</strong>,
+          Email(personal) - <strong class="text-warning">csbasil[at]gmail[dot]com</strong>
+        </div>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#aboutme">About Me</a>
@@ -36,9 +40,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#qualifications">Qualifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-linkbtn btn-warning" href="#"></a>
           </li>
         </ul>
         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
@@ -257,8 +258,13 @@
             </div>
         </div>
         </section>
-      </div>
+      </div><br>
     </div>
+    <section id="contactme" class="container-fluid bg-warning">
+      <div class="text-center" style="padding:50px;font-weight:300;">
+        Last updated on: <span id="last"></span>
+      </div>
+    </section>
     <!-- The Modal -->
     <div class="modal" id="myModal">
       <div class="modal-dialog modal-lg">
@@ -408,6 +414,9 @@
       if(months>0)
         data += months + " Month(s)";
       $("#e").text(data);
+
+      var lastModified = document.lastModified;
+      $("#last").text(lastModified);
     </script>
   </body>
 
