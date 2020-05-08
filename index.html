@@ -387,13 +387,14 @@
             }
           });
         });
+
         var years=0, months=0;
 
         var a = new Date();
         var b = new Date('2018-08-01');
         var days = Math.floor((a - b) / (60 * 60 * 24 * 1000));
-        var m = (Math.floor(days/30)<=12) ? Math.floor(days/30) : Math.floor((days/30)%12);
-
+        var m = Math.floor(days/30);
+        alert(m);
       $('#exp tbody tr td:nth-child(5)').each( function(){
          var value = ($(this).text()).split(" ");
          if(value[2]=="Years"){
@@ -403,11 +404,11 @@
            months += parseInt(value[1]);
          }
       });
-
+      months = months + m;
       var i = months % 12;
       var j = parseInt(months / 12);
       years += j;
-      months = months + i - j*12 + m;
+      months = i;
       var data="";
       if(years>0)
         data = years + " Years ";
