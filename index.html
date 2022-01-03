@@ -57,7 +57,7 @@
         <div class="col-sm-8">
           <div class="name-head line-left">
             <h1>Basil C. Sunny <img src="images/kerala.png" width="90" ><img src="images/india.png" width="70" ></h1>
-            <h2><i class="fa fa-map-marker"></i> Lives in Kothamangalam</h2>
+            <h2><span class="badge badge-info p-2">Founder@Vooxolabs</span> <i class="fa fa-map-marker"></i> Lives in Kothamangalam</h2>
             <h2 style="margin-top:5px;">
               <span class="badge bg-orange text-white"> Full Stack Django Developer</span>
               <span class="badge bg-violet text-white"> 3D Printing Expert</span>
@@ -153,8 +153,8 @@
         </div>
         </section>
         <section id="expereince" style="padding-top:60px;">
-        <div class="card text-dark">
-          <div class="card-header bg-orange"><b>Expereince</b> <div id="e" class="badge badge-warning" style="padding:5px;">3 Years 1 Month(s)</div></div>
+          <div class="card text-dark">
+          <div class="card-header bg-orange"><b>Expereince</b> <div id="e" class="badge badge-warning" style="padding:5px;">3 Years 1 Month(s)</div> <div id="e" class="badge badge-info" style="padding:5px;">8+ Years as Freelancer</div></div>
             <div class="card-body">
               <table id="exp" class="table table-striped table-hover table-bordered">
                 <tr class="">
@@ -187,11 +187,75 @@
                   <td> 6 Months</td>
                 </tr>
                 <tr>
+                  <td>September 2013</td>
+                  <td> - </td>
+                  <td>Freelancer</td>
+                  <td>Full Stack Django Developer</td>
+                  <td id="free_id"> 8 Years </td>
+                </tr>
+                <tr>
                   <td>July 2009</td>
                   <td>Dec 2009 </td>
                   <td>Sepectrum Softech Solutions, Ernakulam</td>
                   <td>PHP/Perl Programmer</td>
                   <td> 6 Months</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+        </div>
+        </section>
+        <section id="patents" style="padding-top:60px;">
+          <div class="card text-dark">
+          <div class="card-header bg-olive text-white"><b>Patents</b> <div id="e" class="badge badge-warning" style="padding:5px;">1 Indian</div> <div id="e" class="badge badge-primary" style="padding:5px;">1 International</div></div>
+            <div class="card-body">
+              <table id="exp" class="table table-striped table-hover table-bordered">
+                <tr class="">
+                  <th>Title</th>
+                  <th>Type</th>
+                  <th>Status</th>
+                </tr>
+                <tbody>
+                <tr>
+                  <td>Cost meter for fused deposition modeling(FDM) 3D printers</td>
+                  <td>Indian Patent</td>
+                  <td>Published</td>
+                </tr>
+                <tr>
+                  <td>Scalable space structured ledger framework for Industrial Internet of Things using Block chain technique</td>
+                  <td>Australian Innovation Grant</td>
+                  <td>Granted</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+        </div>
+        </section>
+        <section id="publications" style="padding-top:60px;">
+          <div class="card text-dark">
+          <div class="card-header bg-violet text-white"><b>Publications</b> <div id="e" class="badge badge-info" style="padding:5px;">3 Conference</div></div>
+            <div class="card-body">
+              <table id="exp" class="table table-striped table-hover table-bordered">
+                <tr class="">
+                  <th>Title</th>
+                  <th>Publisher</th>
+                  <th>Year</th>
+                </tr>
+                <tbody>
+                <tr>
+                  <td>Map-Reduce based framework for instrument detection in large-scale surgica videos</td>
+                  <td>IEEE</td>
+                  <td>2015</td>
+                </tr>
+                <tr>
+                  <td>IoT cloud based smart bin for connected smart cities-A product design approach</td>
+                  <td>IEEE</td>
+                  <td>2019</td>
+                </tr>
+                <tr>
+                  <td>Impact of Printing Parameters on Energy Consumption of 3D Printers using IoT Cloud Architecture</td>
+                  <td>IEEE</td>
+                  <td>2019</td>
                 </tr>
               </tbody>
               </table>
@@ -401,6 +465,10 @@
       var i = months % 12;
       var j = parseInt(months / 12);
       years += j;
+      var value = ($("#free_id").text()).split(" ");
+      if(value[2]=="Years"){
+        years -= parseInt(value[1]);
+      }
       months = i;
       var data="";
       if(years>0)
